@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Single Example</title>
+  <style>
+    img {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <img src="http://fillmurray.com/500/500" alt="Chill Murray">
+
+  <script src="../dist/zoomable.js"></script>
+  <script>
+    window.onload = function() {
+      var image = document.getElementsByTagName('img');
+      new Zoomable(image);
+    };
+  </script>
+</body>
+</html>
