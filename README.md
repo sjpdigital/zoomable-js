@@ -35,6 +35,6 @@ This guy's not quite ready for primetime yet, so hang tight.
 
 These are some of the things we gotta do:
 
-[ ] - Configurable
-[ ] - Browser Compat
-[ ] - Tests
+- [ ] Configurable
+- [ ] Browser Compat
+- [ ] Tests
